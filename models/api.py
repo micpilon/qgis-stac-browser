@@ -44,7 +44,7 @@ class API:
         body = {
             'collections': [c.id for c in collections],
             'bbox': bbox,
-            'time': time,
+            'datetime': time,
             'limit': limit,
         }
 
